@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: NetworkSecurity
+Version: 1.0.0
+Author: Aaditya Singh
+Author-email: aadityasingh0897@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: pymongo
+Requires-Dist: flask
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
