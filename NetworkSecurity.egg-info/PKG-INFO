@@ -11,6 +11,7 @@ Requires-Dist: pymongo
 Requires-Dist: pymongo[srv]==3.12.0
 Requires-Dist: flask
 Requires-Dist: certifi
+Requires-Dist: scikit-learn
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
