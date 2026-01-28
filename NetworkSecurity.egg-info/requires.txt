@@ -7,3 +7,5 @@ pymongo[srv]==3.12.0
 flask
 certifi
 scikit-learn
+dill
+pyaml

@@ -71,14 +71,24 @@ class DataIngestion:
 
     def initiate_data_ingestion(self):
         try:
+            logging.info("Starting data ingestion")
+
+            # 1. Read data from MongoDB
             dataframe = self.export_collection_as_dataframe()
 
-            # save train / test files ...
+            # 2. Save raw data to feature store
+            dataframe = self.export_data_into_feature_store(dataframe)
 
+            # 3. Split into train & test and save files
+            self.split_data_as_train_test(dataframe)
+
+            # 4. Create artifact
             data_ingestion_artifact = DataIngestionArtifact(
                 trained_file_path=self.data_ingestion_config.train_file_path,
                 test_file_path=self.data_ingestion_config.test_file_path
             )
+
+            logging.info("Data ingestion completed successfully")
 
             return data_ingestion_artifact
 
