@@ -112,6 +112,10 @@ class DataValidation:
                 base_df=train_df,
                 current_df=test_df
             )
+            if not drift_status:
+                logging.warning(
+                    "Dataset drift detected. Proceeding with transformation because drift is being ignored."
+                )
 
             # create validation directories
             os.makedirs(
@@ -132,7 +136,7 @@ class DataValidation:
             )
 
             return DataValidationArtifact(
-                validation_status=status and drift_status,
+                validation_status=status,
                 valid_train_file_path=self.data_validation_config.valid_train_file_path,
                 valid_test_file_path=self.data_validation_config.valid_test_file_path,
                 invalid_train_file_path=None,

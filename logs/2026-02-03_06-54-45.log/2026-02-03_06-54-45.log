@@ -1,0 +1,20 @@
+[2026-02-03 06:54:47,348] 16 root - INFO - Data Ingestion Started
+[2026-02-03 06:54:47,349] 74 root - INFO - Starting data ingestion
+[2026-02-03 06:54:48,971] 55 root - INFO - Perform train test split on the dataframe
+[2026-02-03 06:54:48,971] 57 root - INFO - Exited split_data_as_train_test method of Data Igestion Class
+[2026-02-03 06:54:48,972] 62 root - INFO - Exporting train and test file path
+[2026-02-03 06:54:49,041] 67 root - INFO - Exported Train and Test data
+[2026-02-03 06:54:49,041] 91 root - INFO - Data ingestion completed successfully
+[2026-02-03 06:54:49,044] 19 root - INFO - Data Ingestion completed
+[2026-02-03 06:54:49,045] 25 root - INFO - Data Validation Started
+[2026-02-03 06:54:49,117] 35 root - INFO - Required number of columns: 31
+[2026-02-03 06:54:49,117] 36 root - INFO - Data frame has columns: 32
+[2026-02-03 06:54:49,117] 35 root - INFO - Required number of columns: 31
+[2026-02-03 06:54:49,117] 36 root - INFO - Data frame has columns: 32
+[2026-02-03 06:54:49,118] 52 root - INFO - Schema numerical columns: {'Request_URL', 'having_IP_Address', 'Prefix_Suffix', 'HTTPS_token', 'popUpWidnow', 'Links_pointing_to_page', 'Iframe', 'Shortining_Service', 'port', 'double_slash_redirecting', 'Abnormal_URL', 'URL_of_Anchor', 'SFH', 'age_of_domain', 'having_Sub_Domain', 'web_traffic', 'Submitting_to_email', 'RightClick', 'URL_Length', 'Links_in_tags', 'Domain_registeration_length', 'Favicon', 'Google_Index', 'Result', 'on_mouseover', 'Page_Rank', 'Redirect', 'DNSRecord', 'Statistical_report', 'SSLfinal_State', 'having_At_Symbol'}
+[2026-02-03 06:54:49,118] 53 root - INFO - DataFrame numerical columns: {'Request_URL', 'having_IP_Address', 'Prefix_Suffix', 'HTTPS_token', 'popUpWidnow', 'Links_pointing_to_page', 'Iframe', 'Shortining_Service', 'port', 'double_slash_redirecting', 'Abnormal_URL', 'URL_of_Anchor', 'SFH', 'age_of_domain', 'having_Sub_Domain', 'web_traffic', 'Submitting_to_email', 'RightClick', 'URL_Length', 'Links_in_tags', 'Domain_registeration_length', 'Favicon', 'Google_Index', 'Result', 'on_mouseover', 'Page_Rank', 'Redirect', 'DNSRecord', 'Statistical_report', 'SSLfinal_State', 'having_At_Symbol'}
+[2026-02-03 06:54:49,119] 52 root - INFO - Schema numerical columns: {'Request_URL', 'having_IP_Address', 'Prefix_Suffix', 'HTTPS_token', 'popUpWidnow', 'Links_pointing_to_page', 'Iframe', 'Shortining_Service', 'port', 'double_slash_redirecting', 'Abnormal_URL', 'URL_of_Anchor', 'SFH', 'age_of_domain', 'having_Sub_Domain', 'web_traffic', 'Submitting_to_email', 'RightClick', 'URL_Length', 'Links_in_tags', 'Domain_registeration_length', 'Favicon', 'Google_Index', 'Result', 'on_mouseover', 'Page_Rank', 'Redirect', 'DNSRecord', 'Statistical_report', 'SSLfinal_State', 'having_At_Symbol'}
+[2026-02-03 06:54:49,119] 53 root - INFO - DataFrame numerical columns: {'Request_URL', 'having_IP_Address', 'Prefix_Suffix', 'HTTPS_token', 'popUpWidnow', 'Links_pointing_to_page', 'Iframe', 'Shortining_Service', 'port', 'double_slash_redirecting', 'Abnormal_URL', 'URL_of_Anchor', 'SFH', 'age_of_domain', 'having_Sub_Domain', 'web_traffic', 'Submitting_to_email', 'RightClick', 'URL_Length', 'Links_in_tags', 'Domain_registeration_length', 'Favicon', 'Google_Index', 'Result', 'on_mouseover', 'Page_Rank', 'Redirect', 'DNSRecord', 'Statistical_report', 'SSLfinal_State', 'having_At_Symbol'}
+[2026-02-03 06:54:49,257] 33 root - INFO - Data Validation completed
+[2026-02-03 06:54:49,257] 38 root - INFO - Data Transformation Started
+[2026-02-03 06:54:49,257] 48 root - INFO - Starting data transformation

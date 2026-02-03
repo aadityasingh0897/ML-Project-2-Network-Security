@@ -30,6 +30,8 @@ class DataIngestion:
             collection = database[self.data_ingestion_config.collection_name]
 
             df = pd.DataFrame(list(collection.find()))
+            if "_id" in df.columns:
+                df = df.drop(columns=["_id"])
             return df
 
         except Exception as e:
