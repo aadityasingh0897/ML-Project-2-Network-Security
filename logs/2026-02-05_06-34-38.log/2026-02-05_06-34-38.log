@@ -1,0 +1,41 @@
+[2026-02-05 06:34:56,261] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2026-02-05 06:34:57,105] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2026-02-05 06:34:57,892] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-05 06:34:57,896] 107 dagshub - INFO - Accessing as aadityasingh0897
+[2026-02-05 06:34:58,706] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aadityasingh0897/ML-Project-2-Network-Security "HTTP/1.1 200 OK"
+[2026-02-05 06:34:59,455] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-02-05 06:34:59,456] 107 dagshub - INFO - Initialized MLflow to track repo "aadityasingh0897/ML-Project-2-Network-Security"
+[2026-02-05 06:34:59,457] 107 dagshub - INFO - Repository aadityasingh0897/ML-Project-2-Network-Security initialized!
+[2026-02-05 06:34:59,457] 17 root - INFO - Data Ingestion Started
+[2026-02-05 06:34:59,457] 76 root - INFO - Starting data ingestion
+[2026-02-05 06:35:01,054] 57 root - INFO - Perform train test split on the dataframe
+[2026-02-05 06:35:01,054] 59 root - INFO - Exited split_data_as_train_test method of Data Igestion Class
+[2026-02-05 06:35:01,054] 64 root - INFO - Exporting train and test file path
+[2026-02-05 06:35:01,109] 69 root - INFO - Exported Train and Test data
+[2026-02-05 06:35:01,110] 93 root - INFO - Data ingestion completed successfully
+[2026-02-05 06:35:01,110] 20 root - INFO - Data Ingestion completed
+[2026-02-05 06:35:01,110] 26 root - INFO - Data Validation Started
+[2026-02-05 06:35:01,185] 35 root - INFO - Required number of columns: 31
+[2026-02-05 06:35:01,185] 36 root - INFO - Data frame has columns: 31
+[2026-02-05 06:35:01,185] 35 root - INFO - Required number of columns: 31
+[2026-02-05 06:35:01,185] 36 root - INFO - Data frame has columns: 31
+[2026-02-05 06:35:01,186] 52 root - INFO - Schema numerical columns: {'Request_URL', 'having_Sub_Domain', 'Links_in_tags', 'on_mouseover', 'RightClick', 'Favicon', 'having_IP_Address', 'web_traffic', 'HTTPS_token', 'port', 'Links_pointing_to_page', 'age_of_domain', 'having_At_Symbol', 'Iframe', 'Google_Index', 'DNSRecord', 'Prefix_Suffix', 'Shortining_Service', 'Domain_registeration_length', 'URL_of_Anchor', 'Statistical_report', 'Page_Rank', 'SFH', 'SSLfinal_State', 'Result', 'Submitting_to_email', 'popUpWidnow', 'Redirect', 'URL_Length', 'double_slash_redirecting', 'Abnormal_URL'}
+[2026-02-05 06:35:01,186] 53 root - INFO - DataFrame numerical columns: {'Request_URL', 'having_Sub_Domain', 'Links_in_tags', 'on_mouseover', 'RightClick', 'Favicon', 'having_IP_Address', 'web_traffic', 'HTTPS_token', 'port', 'Links_pointing_to_page', 'age_of_domain', 'having_At_Symbol', 'Iframe', 'Google_Index', 'DNSRecord', 'Prefix_Suffix', 'Shortining_Service', 'Domain_registeration_length', 'URL_of_Anchor', 'Statistical_report', 'Page_Rank', 'SFH', 'SSLfinal_State', 'Result', 'Submitting_to_email', 'popUpWidnow', 'Redirect', 'URL_Length', 'double_slash_redirecting', 'Abnormal_URL'}
+[2026-02-05 06:35:01,186] 52 root - INFO - Schema numerical columns: {'Request_URL', 'having_Sub_Domain', 'Links_in_tags', 'on_mouseover', 'RightClick', 'Favicon', 'having_IP_Address', 'web_traffic', 'HTTPS_token', 'port', 'Links_pointing_to_page', 'age_of_domain', 'having_At_Symbol', 'Iframe', 'Google_Index', 'DNSRecord', 'Prefix_Suffix', 'Shortining_Service', 'Domain_registeration_length', 'URL_of_Anchor', 'Statistical_report', 'Page_Rank', 'SFH', 'SSLfinal_State', 'Result', 'Submitting_to_email', 'popUpWidnow', 'Redirect', 'URL_Length', 'double_slash_redirecting', 'Abnormal_URL'}
+[2026-02-05 06:35:01,186] 53 root - INFO - DataFrame numerical columns: {'Request_URL', 'having_Sub_Domain', 'Links_in_tags', 'on_mouseover', 'RightClick', 'Favicon', 'having_IP_Address', 'web_traffic', 'HTTPS_token', 'port', 'Links_pointing_to_page', 'age_of_domain', 'having_At_Symbol', 'Iframe', 'Google_Index', 'DNSRecord', 'Prefix_Suffix', 'Shortining_Service', 'Domain_registeration_length', 'URL_of_Anchor', 'Statistical_report', 'Page_Rank', 'SFH', 'SSLfinal_State', 'Result', 'Submitting_to_email', 'popUpWidnow', 'Redirect', 'URL_Length', 'double_slash_redirecting', 'Abnormal_URL'}
+[2026-02-05 06:35:01,305] 34 root - INFO - Data Validation completed
+[2026-02-05 06:35:01,305] 39 root - INFO - Data Transformation Started
+[2026-02-05 06:35:01,305] 48 root - INFO - Starting data transformation
+[2026-02-05 06:35:01,364] 39 root - INFO - Creating data transformer object
+[2026-02-05 06:35:01,375] 43 root - INFO - Entered the save_object method of Main Utils class
+[2026-02-05 06:35:01,377] 47 root - INFO - Existed the dav_object method of Main Utils class
+[2026-02-05 06:35:01,377] 103 root - INFO - Data transformation completed successfully
+[2026-02-05 06:35:01,378] 42 root - INFO - Data Transformation completed
+[2026-02-05 06:35:01,378] 46 root - INFO - Model Trainer Started
+[2026-02-05 06:38:57,896] 53 root - INFO - Entered the load_object method of Main Utils class
+[2026-02-05 06:38:57,910] 56 root - INFO - Exited the load_object method of Main Utils class
+[2026-02-05 06:38:57,911] 43 root - INFO - Entered the save_object method of Main Utils class
+[2026-02-05 06:38:57,950] 47 root - INFO - Existed the dav_object method of Main Utils class
+[2026-02-05 06:38:57,950] 101 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_05_2026_06_34_38\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912884927066451, accuracy_score=0.9902758932609679, precision_score=0.9886845827439887, recall_score=0.9939061547836685), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9741518578352181, accuracy_score=0.9710538218000905, precision_score=0.9710144927536232, recall_score=0.9773095623987034))
+[2026-02-05 06:38:57,954] 130 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\02_05_2026_06_34_38\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912884927066451, accuracy_score=0.9902758932609679, precision_score=0.9886845827439887, recall_score=0.9939061547836685), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9741518578352181, accuracy_score=0.9710538218000905, precision_score=0.9710144927536232, recall_score=0.9773095623987034))
+[2026-02-05 06:38:57,954] 50 root - INFO - Model Trainer completed

@@ -19,6 +19,9 @@ from sklearn.neighbors import KNeighborsClassifier
 import mlflow
 import mlflow.sklearn
 
+import dagshub
+dagshub.init(repo_owner='aadityasingh0897', repo_name='ML-Project-2-Network-Security', mlflow=True)
+
 class ModelTrainer:
     def __init__(self,
                  model_trainer_config: ModelTrainerConfig,
