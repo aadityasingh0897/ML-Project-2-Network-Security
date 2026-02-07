@@ -13,4 +13,5 @@ mlflow
 dagshub
 fastapi
 uvicorn
+jinja2
 -e .

@@ -1,6 +1,0 @@
-[2026-02-07 10:15:15,957] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2026-02-07 10:15:15,962] 107 dagshub - INFO - Accessing as aadityasingh0897
-[2026-02-07 10:15:16,743] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aadityasingh0897/ML-Project-2-Network-Security "HTTP/1.1 200 OK"
-[2026-02-07 10:15:17,057] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2026-02-07 10:15:17,058] 107 dagshub - INFO - Initialized MLflow to track repo "aadityasingh0897/ML-Project-2-Network-Security"
-[2026-02-07 10:15:17,059] 107 dagshub - INFO - Repository aadityasingh0897/ML-Project-2-Network-Security initialized!
